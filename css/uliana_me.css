@@ -3,10 +3,6 @@ body {
 	color: white;
 }
 
-a {
-	color: #A0D3FF;
-}
-
 .navigation .item {
 	line-height: 2em;
 	cursor: pointer;
@@ -43,5 +39,5 @@ a {
 }
 
 .contact{
-	background-color: #900035;
+	background-color: #015367;
 }
