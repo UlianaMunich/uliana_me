@@ -1,0 +1,47 @@
+body {
+	transition: background-color 500ms ease-in;
+	color: white;
+}
+
+a {
+	color: #A0D3FF;
+}
+
+.navigation .item {
+	line-height: 2em;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.section {
+	margin-top: 3em;
+}
+
+.story-divider {
+	margin: 80px 0;
+	border-top: 1px solid #FFF;
+}
+
+.about{
+	background-color: #d7333c;
+}
+
+.career{
+	background-color: #60016D;
+}
+
+.education{
+	background-color: #FF7F00;
+}
+
+.certificates{
+	background-color: #05296E;
+}
+
+.hobby{
+	background-color: #8DA100;
+}
+
+.contact{
+	background-color: #900035;
+}
