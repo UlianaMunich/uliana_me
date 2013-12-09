@@ -178,12 +178,12 @@
           <p class="lead"> Be creative in design of home, yourself and the world around you </p>
         </div>
         <div class="col-md-4">
-          <div id="carousel-photos" class="carousel slide" data-ride="carousel">
+          <div id="carousel-hobby" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#carousel-photos" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-photos" data-slide-to="1"></li>
-              <li data-target="#carousel-photos" data-slide-to="2"></li>
+              <li data-target="#carousel-hobby" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-hobby" data-slide-to="1"></li>
+              <li data-target="#carousel-hobby" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -226,8 +226,9 @@
     <!--SECTION CONTACT-->
     <!---->
     <div id="contact" class="section">
-      <form class="form-signin" role="form">
-        <h2 class="form-signin-heading"></h2>
+      <form class="form-contact" role="form">
+        <h2>You can contact me by using link in footer or fullfil the next form</h2>
+        <h2 class="form-contact-heading"></h2>
         <p> 
           <label for="name">Name:</label>
           <input type="text" placeholder="how may I call you ?" class="form-control">
@@ -238,7 +239,7 @@
         </p>
         <p> 
           <label for="message">Your Message:</label>
-          <input type="text" placeholder="Don't be shy, live me a friendly message and I'll answer as soon as possible" class="form-control">
+          <input type="text" placeholder="Don't be shy, live me a friendly msg           and I'll answer as soon as possible" class="form-control">
         </p>
         <p> 
           <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
@@ -260,44 +261,6 @@
   <!-- Scripts -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/holder.js"></script>
-  <script type="text/javascript">
-  /* ---------------------------------------------------------------------- */
-      /*  Google Analytics
-      /* ---------------------------------------------------------------------- */
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-38582644-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-      /* ---------------------------------------------------------------------- */
-      /*  My scripts
-      /* ---------------------------------------------------------------------- */
-      (function(){
-        /* hide all sections, show only one with class initial */
-        $(".section").hide();
-        $(".initial").show();
-
-        /* ---------------------------------------------------------------------- */
-        /*  Change background color to a navigation color 
-        /* ---------------------------------------------------------------------- */
-        $('.navigation .item').click(function(){
-          var next_section = $(this).attr("data-section");
-          var current_section = $('body').attr("class");
-          $('body').removeClass(current_section);
-          $('body').addClass(next_section);
-          $('#'+ current_section).fadeOut(200, function(){
-            $('#'+ next_section).fadeIn(200);
-          });
-        });
-
-        /* start scripts */
-
-      })();
-      </script>
-    </body>
-    </html>
+  <script src="js/uliana_me.js"></script>
+</body>
+</html>
