@@ -1,4 +1,4 @@
-Sources for www.uliana.me
+Sources for my website
 -------------------------
 
 Currently all content is static.
