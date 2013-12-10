@@ -8,4 +8,4 @@ try:
 except IOError:
     pass
 
-from uliana_me import application
+from uliana_me import app as application
