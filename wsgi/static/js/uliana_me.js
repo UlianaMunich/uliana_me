@@ -10,6 +10,19 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
+  /* ---------------------------------------------------------------------- */
+  /*  Google Maps initializing
+  /* ---------------------------------------------------------------------- */
+function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(51.04905654967599, 13.739862442016602),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(map_canvas, map_options);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
 /* ---------------------------------------------------------------------- */
 /*  My scripts
 /* ---------------------------------------------------------------------- */
