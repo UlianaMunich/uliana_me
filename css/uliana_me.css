@@ -2,6 +2,14 @@ body {
 	transition: background-color 500ms ease-in;
 	color: white;
 }
+a {
+  text-decoration: underline
+}
+#map_canvas {
+        width: 500px;
+        height: 400px;
+      }
+
 
 .navigation .item {
 	line-height: 2em;
