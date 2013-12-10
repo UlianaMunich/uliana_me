@@ -11,7 +11,7 @@ _gaq.push(['_trackPageview']);
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
   /* ---------------------------------------------------------------------- */
-  /*  Google Maps initializing
+  /*  Dresden Google Maps without label mark
   /* ---------------------------------------------------------------------- */
 function initialize() {
         var map_canvas = document.getElementById('map_canvas');
