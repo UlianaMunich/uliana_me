@@ -337,19 +337,27 @@
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="static/js/uliana_me.js"></script>
 <script>
-  $(':submit').click(function(){
-		$.ajax({
-		  type: 'POST',
-		  url: '/api/contact',
-		  dataType: 'json',
-		  data: $('#form').serialize(),
-		  success: function(data){
-		  	
-		  }
-			  }).done(function( msg ) {
-			    alert('Message sent');
-			  });
+  $(':submit').on('click', function(){
+  		event.preventDefault();
 
+	  	if($('input').attr('value') == null)  
+	        {  
+	        alert("please fill the form");  
+	        return false;  
+	    }else
+	    {
+	    	$.ajax({
+			  type: 'POST',
+			  url: '/api/contact',
+			  dataType: 'json',
+			  data: $('#form').serialize(),
+			  success: function(data){
+			  }
+		    }).done(function() {
+				    alert('Message sent');
+				    });
+	    }
+  		
   });
 </script>
 </body>
