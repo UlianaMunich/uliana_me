@@ -340,10 +340,17 @@
   $(':submit').on('click', function(){
   		event.preventDefault();
 
-	  	if($('input').attr('value') == null)  
+	  	if($("input[name='name']").val() == "")
 	        {  
-	        alert("please fill the form");  
-	        return false;  
+	        alert('please fill the name field');  
+	    }
+	    else if($("input[name='email']").val() == "")
+	    	{  
+	        alert('please fill the email field');  
+	    }
+	    else if($("input[name='text']").val() == "")
+	    	{  
+	        alert('please leave some msg');  
 	    }else
 	    {
 	    	$.ajax({
