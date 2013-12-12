@@ -5,17 +5,9 @@ body {
 a {
   text-decoration: underline;
 }
-a:hover {
-  font-size: 1.1em;
-}
 .col-md-7 ul{
  list-style-type: circle;
 }
-#map_canvas {
-        width: 500px;
-        height: 400px;
-      }
-
 
 .navigation .item {
 	line-height: 2em;
@@ -44,6 +36,7 @@ a:hover {
   margin-bottom: .5em;
   letter-spacing: .5px;
   font-weight: 100;
+  font-size: 1.3em;
 }
 
 #hobby .col-md-6 p{
@@ -78,42 +71,27 @@ a:hover {
 	background-color: #015367;
 }
 
-.form-contact {
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
+/* Helper classes */
+.align-left {
+  text-align: left;
 }
-.form-contact .form-contact-heading,
-.form-contact .checkbox {
-  margin-bottom: 10px;
+
+.align-right {
+  text-align: right;
 }
-.form-contact .checkbox {
-  font-weight: normal;
+
+.align-center {
+  text-align: center;
 }
-.form-contact .form-control {
-  position: relative;
-  font-size: 16px;
-  height: auto;
-  padding: 10px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+
+.mt0 {
+  margin-top: 0;
 }
-.form-contact .form-control:focus {
-  z-index: 2;
+
+.mt40 {
+  margin-top: 40px;
 }
-.form-contact input[type="text"] {
-  margin-bottom: -1px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.form-contact input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-.form-contact input[type="email"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+
+.small {
+  font-size: .8em;
 }

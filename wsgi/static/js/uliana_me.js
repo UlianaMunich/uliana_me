@@ -10,19 +10,6 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
-  /* ---------------------------------------------------------------------- */
-  /*  Dresden Google Maps without label mark
-  /* ---------------------------------------------------------------------- */
-function initialize() {
-        var map_canvas = document.getElementById('map_canvas');
-        var map_options = {
-          center: new google.maps.LatLng(51.04905654967599, 13.739862442016602),
-          zoom: 12,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(map_canvas, map_options);
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
 /* ---------------------------------------------------------------------- */
 /*  My scripts
 /* ---------------------------------------------------------------------- */
@@ -31,6 +18,36 @@ function initialize() {
   $(".section").hide();
   $(".initial").show();
 
+  /* ---------------------------------------------------------------------- */
+  /*  Check and post form
+  /* ---------------------------------------------------------------------- */
+  $(':submit').on('click', function(){
+      event.preventDefault();
+      if($("input[name='name']").val() === "")
+          {
+          alert('please fill the name field');
+      }
+      else if($("input[name='email']").val() === "")
+        {
+          alert('please fill the email field');
+      }
+      else if($("textarea[name='text']").val() === "")
+        {
+          alert('please leave some msg');
+      }else
+      {
+        $.ajax({
+        type: 'POST',
+        url: '/api/contact',
+        dataType: 'json',
+        data: $('#form').serialize(),
+        success: function(data){
+        }
+        }).done(function() {
+            alert('Form submitted');
+            });
+      }
+  });
   /* ---------------------------------------------------------------------- */
   /*  Change background color to a navigation color 
   /* ---------------------------------------------------------------------- */

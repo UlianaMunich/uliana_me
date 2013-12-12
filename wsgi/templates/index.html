@@ -83,16 +83,6 @@
           </ul>
         </div>
       </div>
-      <!-- Map -->
-      <hr class="story-divider">
-      <div class="row story">
-        <div class="col-md-offset-3 col-md-6">
-          <h2>Where am I now?</h2>
-          <div id="map_canvas"></div>
-        </div>
-        <div class="col-md-3">
-        </div>
-      </div>
     </div>
 
     <!---->
@@ -104,7 +94,7 @@
           <h1>My Career. <span class="text-muted">From Telecoms to Web development.</span></h1>
           <p>After 3+ years of professional experience in Telecommunications I switched to Web development. Why? Because it's fun and gives infinite opportunity to be creative and useful. Because I can finally combine my technical skills with a feeling of beauty. Because web stuff is just awesome.</p>
           <p class="lead">You can scroll through this page or take a look at <a href="static/img/UlianaAndriieshynaCV.pdf">my CV</a>
-				  <span class="glyphicon glyphicon-download-alt"></span>
+				  <span class="glyphicon glyphicon-download-alt small"></span>
           </p>
         </div>
       </div>
@@ -126,7 +116,7 @@
             </div>
             <div class="col-md-6">
               <h3>Results</h3>
-              <p>Outcome of my team-work was presented at IBM Expo in Hursley(UK) also in Böblingen and Ehningen(Germany)</p>
+              <p>Outcome of my team-work was presented at IBM Expo in Hursley&nbsp;(UK) as well as in Böblingen and Ehningen (Germany)</p>
               <p>Recommendation <a href="http://path-to-recommendation" title="recommendation letter">here</a>.</p>
             </div>
             <div class="clearfix"></div>
@@ -299,25 +289,39 @@
     <!--SECTION CONTACT-->
     <!---->
     <div id="contact" class="section">
-      <form id="form" class="form-contact" role="form">
-        <h2>You can contact me by using link in the footer or fill the next form</h2>
-        <h2 class="form-contact-heading"></h2>
-        <p> 
-          <label for="name">Name:</label>
-          <input name="name" type="text" placeholder="how may I call you?" class="form-control">
-        </p>
-        <p> 
-          <label for="email">Email Address:</label>
-          <input name="email" type="text" placeholder="I promise I hate spam as much as you" class="form-control">
-        </p>
-        <p> 
-          <label for="message">Your Message:</label>
-          <input name="text" type="text" placeholder="Don't be shy, live me a friendly msg" class="form-control">
-        </p>
-        <p> 
-         <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
-       </p>
-     </form>
+      <!-- Story -->
+      <div class="row story">
+        <div class="col-md-offset-2 col-md-4">
+          <h2 class="align-right mt0">Contact me using this form or email in the footer</h2>
+        </div>
+        <div class="col-md-4">
+          <form id="form" class="form-contact" role="form">
+            <p> 
+              <label for="name">Name:</label>
+              <input name="name" type="text" placeholder="how may I call you?" class="form-control"/>
+            </p>
+            <p> 
+              <label for="email">Your email:</label>
+              <input name="email" type="text" placeholder="I promise I hate spam as much as you" class="form-control"/>
+            </p>
+            <p> 
+              <label for="text">Message:</label>
+              <textarea name="text" placeholder="Don't be shy, leave me a friendly msg" class="form-control"></textarea>
+            </p>
+            <p> 
+             <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+           </p>
+         </form>
+        </div>
+      </div>
+      <div class="row story mt40">
+        <div class="col-md-12">
+          <h2 class="align-center">Here I am!</h2>
+          <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Dresden,+Germany&amp;aq=0&amp;oq=Dr&amp;sll=50.673835,13.787842&amp;sspn=5.362011,11.634521&amp;ie=UTF8&amp;hq=&amp;hnear=Dresden,+Saxony,+Germany&amp;t=m&amp;ll=52.429222,13.535156&amp;spn=4.69007,9.338379&amp;z=6&amp;output=embed&amp;iwloc=near"></iframe>
+        </div>
+      </div>
+
+      
    </div>
 
    <!---->
@@ -336,36 +340,5 @@
 <script src="static/js/bootstrap.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="static/js/uliana_me.js"></script>
-<script>
-  $(':submit').on('click', function(){
-  		event.preventDefault();
-
-	  	if($("input[name='name']").val() == "")
-	        {  
-	        alert('please fill the name field');  
-	    }
-	    else if($("input[name='email']").val() == "")
-	    	{  
-	        alert('please fill the email field');  
-	    }
-	    else if($("input[name='text']").val() == "")
-	    	{  
-	        alert('please leave some msg');  
-	    }else
-	    {
-	    	$.ajax({
-			  type: 'POST',
-			  url: '/api/contact',
-			  dataType: 'json',
-			  data: $('#form').serialize(),
-			  success: function(data){
-			  }
-		    }).done(function() {
-				    alert('Form submitted');
-				    });
-	    }
-  		
-  });
-</script>
 </body>
 </html>
