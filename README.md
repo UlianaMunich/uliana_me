@@ -1,49 +1,35 @@
-Project structure:
+User Interface
+==============
 
- - `wsgi/` - web application root
-   - `static` - all static content
-     - `css/` - styles, including external
-     - `img/` - images, including sprites and icons
-     - `js/` - scripts, including external
-     - `fonts/` - fonts in svg
-   - `templates/` - html files
-     - index.html - current site root
+Content impressions
+-------------------
 
-
-Site impressions
-================
-
-About
------
+**About**
 * Nice color
 * Need to think about more useful content (main page is main impression)
   * 2 Degrees
   * Full-time work experience
 
 
-Career
-------
+**Career**
 * Nice color
 * Make all logos readable
 
 
-Education
----------
+**Education**
 * Too acid color
 * Add more info
 * Stress on 2 Master degrees
 
 
-Certificates
-------------
+**Certificates**
 * If decide to change this section completely, candidates:
   * References
   * Online profiles
   * Services
 * Color looks great with IBM certificates
 
-Hobby
------
+**Hobby**
 * Color is OK, but photos like gray/dark background
 * Add more stories:
   * Photos
@@ -52,21 +38,33 @@ Hobby
   * Sport?
   * Maybe, "other": home design, books
 
-Contact
--------
+**Contact**
 * Color is fantastic
 * Maybe embed google-map
 * Remove unnecessary styles, keep it simple
 
-API notes
-=========
+Backend
+=======
+API docs
+--------
 * `contact` – send a message to my private email
   * URL: `/api/contact`
   * Method: `POST` 
   * Data: `{"email": "test@trash-mail.com", "name": "Testman", "text": "Hey there"}`
 
-Backend
-=======
+Project structure
+-----------------
+ - `wsgi/` - web application root
+   - `static` - all static content
+     - `css/` - styles, including external
+     - `img/` - images, including sprites and icons
+     - `js/` - scripts, including external
+     - `fonts/` - fonts in svg
+   - `templates/` - html files
+     - `index.html` - current site root
+
+Stack
+-----
 Backend is running on:
 - Flask web-framework
   - Python
@@ -75,8 +73,8 @@ Backend is running on:
 - Openshift hosting
 
 
-Openshift
-=========
+Hosting
+-------
 Openshift uses git-based commits, new version is deployed just after push.
 
 Git authentication is done by sharing the ssh public key through web interface.
