@@ -5,9 +5,6 @@ body {
 a {
   text-decoration: underline;
 }
-.col-md-7 ul{
- list-style-type: circle;
-}
 
 .navigation .item {
 	line-height: 2em;
