@@ -5,6 +5,9 @@ body {
 a {
   text-decoration: underline;
 }
+li {
+  list-style: none;
+}
 
 .navigation .item {
 	line-height: 2em;
