@@ -1978,6 +1978,9 @@ fieldset[disabled] .form-control {
 textarea.form-control {
   height: auto;
 }
+textarea.form-control  #msg{
+  height: 120px;
+}
 
 .form-group {
   margin-bottom: 15px;

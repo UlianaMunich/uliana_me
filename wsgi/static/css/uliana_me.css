@@ -8,6 +8,9 @@ a {
 li {
   list-style: none;
 }
+footer {
+padding-bottom: 2em;
+}
 
 .navigation .item {
 	line-height: 2em;
