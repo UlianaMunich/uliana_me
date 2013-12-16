@@ -2,6 +2,11 @@ body {
 	transition: background-color 500ms ease-in;
 	color: white;
 }
+
+.text-muted {
+color: #B6B6B6;
+}
+
 a {
   text-decoration: underline;
 }
@@ -23,7 +28,7 @@ padding-bottom: 4em;
 }
 
 .story-divider {
-	margin: 70px 0;
+	margin: 50px 0;
 	border-top: 1px solid #FFF;
 }
 
@@ -31,7 +36,7 @@ padding-bottom: 4em;
   font-size: 1.4em;
   font-weight: 200;
 }
-.story>.image {
+.story>div>img {
   margin-top: 10px;
   padding: 35px;
 }
@@ -59,7 +64,7 @@ padding-bottom: 4em;
 }
 
 .education{
-	background-color: #FF7F00;
+	background-color: #015367;
 }
 
 .certificates{
@@ -71,7 +76,7 @@ padding-bottom: 4em;
 }
 
 .contact{
-	background-color: #015367;
+	background-color: #FF7F00;
 }
 
 /* Helper classes */
@@ -91,8 +96,8 @@ padding-bottom: 4em;
   margin-top: 0;
 }
 
-.mt40 {
-  margin-top: 40px;
+.mt2 {
+  margin-top: 2em;
 }
 
 .small {
