@@ -10,7 +10,7 @@ color: #B6B6B6;
 a {
   text-decoration: underline;
 }
-li {
+.nobullets>li {
   list-style: none;
 }
 footer {
@@ -42,7 +42,7 @@ padding-bottom: 4em;
 }
 .story .lead {
   margin-bottom: .5em;
-  letter-spacing: .5px;
+  letter-spacing: .6px;
   font-weight: 100;
   font-size: 1.3em;
 }
@@ -98,6 +98,10 @@ padding-bottom: 4em;
 
 .mt2 {
   margin-top: 2em;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .small {
