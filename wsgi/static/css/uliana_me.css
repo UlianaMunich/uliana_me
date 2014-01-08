@@ -13,6 +13,11 @@ a {
 .nobullets>li {
   list-style: none;
 }
+
+.biglist>li {
+  margin-bottom: .5em;
+}
+
 footer {
 padding-bottom: 4em;
 }
@@ -36,7 +41,7 @@ padding-bottom: 4em;
   font-size: 1.4em;
   font-weight: 200;
 }
-.story>div>img {
+.story>div>img.img-responsive {
   margin-top: 10px;
   padding: 35px;
 }
