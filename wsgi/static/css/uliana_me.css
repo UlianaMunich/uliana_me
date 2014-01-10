@@ -41,10 +41,12 @@ padding-bottom: 4em;
   font-size: 1.4em;
   font-weight: 200;
 }
-.story>div>img.img-responsive {
+
+.img-padded {
   margin-top: 10px;
   padding: 35px;
 }
+
 .story .lead {
   margin-bottom: .5em;
   letter-spacing: .6px;
