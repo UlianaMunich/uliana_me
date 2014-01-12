@@ -98,3 +98,6 @@ padding-bottom: 4em;
 .small {
   font-size: .8em;
 }
+#form .progress{
+  display:none;
+}
