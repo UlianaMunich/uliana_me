@@ -35,7 +35,8 @@ _gaq.push(['_trackPageview']);
         {
           alert('please leave some msg');
       }else
-      {
+      { $('#form button').hide();
+        $('#form .progress').show();
         $.ajax({
         type: 'POST',
         url: '/api/contact',
@@ -44,7 +45,12 @@ _gaq.push(['_trackPageview']);
         success: function(data){
         }
         }).done(function() {
+            $("#form input").val("");
+            $("#form textarea").val("");
             alert('Form submitted');
+            
+            $('#form .progress').hide();
+            $('#form button').show();
             });
       }
   });
