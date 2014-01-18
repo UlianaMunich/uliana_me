@@ -21,9 +21,9 @@ _gaq.push(['_trackPageview']);
   /* ---------------------------------------------------------------------- */
   /*  Check and post form
   /* ---------------------------------------------------------------------- */
-  $(':submit').on('click', function(){
+  $(':submit').on('click', function(event){
       event.preventDefault();
-      event.isDefaultPrevented;
+      event.isDefaultPrevented();
       if($("input[name='name']").val() === "")
           {
           alert('please fill the name field');
