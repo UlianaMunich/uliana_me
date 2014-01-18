@@ -23,7 +23,7 @@ _gaq.push(['_trackPageview']);
   /* ---------------------------------------------------------------------- */
   $(':submit').on('click', function(){
       event.preventDefault();
-      event.defaultPrevented;
+      event.isDefaultPrevented;
       if($("input[name='name']").val() === "")
           {
           alert('please fill the name field');
