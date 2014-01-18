@@ -101,3 +101,10 @@ padding-bottom: 4em;
 #form .progress{
   display:none;
 }
+/* makes the page black (text) on white (background) and etc. when it's printed out. */
+@media print{
+  body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+  #ad{ display:none;}
+  #leftbar{ display:none;}
+  #contentarea{ width:100%;}
+}
