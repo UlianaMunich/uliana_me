@@ -68,6 +68,6 @@ _gaq.push(['_trackPageview']);
     });
   });
 
-  $('.lazyYT').lazyYT();
+  //$('.lazyYT').lazyYT();
 
 })();
