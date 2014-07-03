@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49cc05b4-706e-4511-99c3-980deb25ed49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/openshift/static/img/logo/django-logo.png" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/logo/django-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/openshift/templates/index.html" afterPath="$PROJECT_DIR$/wsgi/openshift/templates/index.html" />
     </list>
     <ignored path="uliana_me.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/openshift/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="514" column="50" selection-start="22919" selection-end="22919" vertical-scroll-proportion="0.62171626" vertical-offset="8897" max-vertical-offset="9486">
+            <state line="512" column="2" selection-start="22755" selection-end="22755" vertical-scroll-proportion="0.5271454" vertical-offset="8915" max-vertical-offset="9522">
               <folding />
             </state>
           </provider>
@@ -397,7 +396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/openshift/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="514" column="50" selection-start="22919" selection-end="22919" vertical-scroll-proportion="0.62171626" vertical-offset="8897" max-vertical-offset="9486">
+        <state line="512" column="2" selection-start="22755" selection-end="22755" vertical-scroll-proportion="0.5271454" vertical-offset="8915" max-vertical-offset="9522">
           <folding />
         </state>
       </provider>
