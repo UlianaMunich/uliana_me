@@ -2,23 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49cc05b4-706e-4511-99c3-980deb25ed49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/img/logo/angularjs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/img/logo/github.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/img/logo/jquery-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/img/logo/js.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/img/logo/xmpp-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/The PostgreSQL server failed to start.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uliana_me.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/img/2013-12-10 15.38.03.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/templates/index.html" afterPath="$PROJECT_DIR$/wsgi/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/js/uliana_me.js" afterPath="$PROJECT_DIR$/wsgi/static/js/uliana_me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/static/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/static/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.openshift/action_hooks/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.openshift/action_hooks/deploy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/openshiftlibs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.openshift/action_hooks/post_deploy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.openshift/action_hooks/pre_build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.openshift/action_hooks/secure_db.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.openshift/template.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/openshift/wsgi.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app.py.disabled" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/The PostgreSQL server failed to start.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/img/GithubIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/angularjs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/github.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/jquery-logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/js.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/xmpp-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/uliana_me.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.openshift/action_hooks/README.md" afterPath="$PROJECT_DIR$/.openshift/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/wsgi/openshift/static/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/wsgi/openshift/static/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/wsgi/openshift/static/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/wsgi/openshift/static/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/css/lazyYT.min.css" afterPath="$PROJECT_DIR$/wsgi/openshift/static/css/lazyYT.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/css/uliana_me.css" afterPath="$PROJECT_DIR$/wsgi/openshift/static/css/uliana_me.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/wsgi/openshift/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/wsgi/openshift/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/wsgi/openshift/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/1.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/10.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/11.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/12.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/13.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/13.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/14.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/15.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/15.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/16.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/16.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/17.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/17.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/2.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/3.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/4.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/5.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/6.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/7.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/8.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/9.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/ExtremeBlue.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/ExtremeBlue.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/MicrosoftCertificate.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/MicrosoftCertificate.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/UlianaAndriieshynaCV.pdf" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/UlianaAndriieshynaCV.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/db2_certificate.png" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/db2_certificate.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/favicon.ico" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/flag.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/flag.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/ibmdb2.pdf" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/ibmdb2.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/ibm.svg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/logo/ibm.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/kpi.png" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/logo/kpi.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/life.png" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/logo/life.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/sodocu.png" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/logo/sodocu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/logo/tud.png" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/logo/tud.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/me_with_minolta.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/me_with_minolta.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/pic2aboutMe.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/pic2aboutMe.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/recommend/EmpfehlungAndriieshyna.pdf" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/recommend/EmpfehlungAndriieshyna.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/recommend/IBMRecommendation.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/recommend/IBMRecommendation.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/recommend/RecomAndriieshynaSodocu.pdf" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/recommend/RecomAndriieshynaSodocu.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/recommend/RecommendAndriieshynaLife.pdf" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/recommend/RecommendAndriieshynaLife.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/recommend/TUDrecommendAndriieshyna1.pdf" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/recommend/TUDrecommendAndriieshyna1.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/recommend/gsm_recommend.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/recommend/gsm_recommend.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/recommend/tud_recommend.pdf" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/recommend/tud_recommend.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/recommend/vas_recommend.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/recommend/vas_recommend.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/img/ulia.jpg" afterPath="$PROJECT_DIR$/wsgi/openshift/static/img/ulia.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/wsgi/openshift/static/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/wsgi/openshift/static/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/js/lazyYT.min.js" afterPath="$PROJECT_DIR$/wsgi/openshift/static/js/lazyYT.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/js/uliana_me.js" afterPath="$PROJECT_DIR$/wsgi/openshift/static/js/uliana_me.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/templates/index.html" afterPath="$PROJECT_DIR$/wsgi/openshift/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/application" afterPath="$PROJECT_DIR$/wsgi/application" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="uliana_me.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,20 +110,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wsgi/templates/index.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi/openshift/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="485" column="227" selection-start="21830" selection-end="21831" vertical-scroll-proportion="0.33274958" vertical-offset="8540" max-vertical-offset="9360">
+            <state line="121" column="34" selection-start="5872" selection-end="5872" vertical-scroll-proportion="-5.4814816" vertical-offset="2030" max-vertical-offset="9360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uliana_me.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi/static/js/uliana_me.js">
+      <file leaf-file-name="uliana_me.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wsgi/openshift/static/js/uliana_me.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1422">
-              <folding />
+            <state line="61" column="52" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.48407644" vertical-offset="794" max-vertical-offset="1422">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +145,7 @@
       <list>
         <option value="$PROJECT_DIR$/wsgi/static/js/uliana_me.js" />
         <option value="$PROJECT_DIR$/wsgi/templates/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -109,7 +181,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,6 +227,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="openshift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uliana_me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uliana_me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsgi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openshift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -174,6 +267,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="openshift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -192,6 +289,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="openshift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -202,6 +303,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +311,20 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -229,7 +345,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -237,11 +353,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -261,31 +377,38 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wsgi/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/wsgi/openshift/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="33" selection-start="6072" selection-end="6073" vertical-scroll-proportion="0.0" vertical-offset="2276" max-vertical-offset="9360">
+        <state line="99" column="78" selection-start="4806" selection-end="4806" vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="9360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/js/uliana_me.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="794" max-vertical-offset="1422">
+        <state line="14" column="6" selection-start="119" selection-end="119" vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="616" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/application">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/js/uliana_me.js">
+    <entry file="file://$PROJECT_DIR$/wsgi/openshift/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="794" max-vertical-offset="1422">
+        <state line="121" column="34" selection-start="5872" selection-end="5872" vertical-scroll-proportion="-5.4814816" vertical-offset="2030" max-vertical-offset="9360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/wsgi/openshift/static/js/uliana_me.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="485" column="227" selection-start="21830" selection-end="21831" vertical-scroll-proportion="0.33274958" vertical-offset="8540" max-vertical-offset="9360">
-          <folding />
+        <state line="61" column="52" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.48407644" vertical-offset="794" max-vertical-offset="1422">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

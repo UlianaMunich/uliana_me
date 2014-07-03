@@ -1,10 +1,20 @@
 from setuptools import setup
 
+import os
+
+# Put here required packages
+packages = ['Django<=1.6',]
+
+if 'REDISCLOUD_URL' in os.environ and 'REDISCLOUD_PORT' in os.environ and 'REDISCLOUD_PASSWORD' in os.environ:
+     packages.append('django-redis-cache')
+     packages.append('hiredis')
+
 setup(name='Uliana.me',
-      version='1.0',
+      version='2.0',
       description='My Personal Site',
       author='Uliana',
       author_email='',
-      url='http://www.python.org/sigs/distutils-sig/',
-      install_requires=['Flask==0.10.1', 'requests'],
-     )
+      url='https://pypi.python.org/pypi',
+      install_requires=packages,
+)
+
