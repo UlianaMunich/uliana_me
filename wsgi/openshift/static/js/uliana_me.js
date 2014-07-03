@@ -5,15 +5,18 @@ var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-38582644-1']);
 _gaq.push(['_trackPageview']);
 
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+(function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
 })();
 /* ---------------------------------------------------------------------- */
 /*  My scripts
 /* ---------------------------------------------------------------------- */
-(function(){
+$(document).ready(function(){
   /* hide all sections, show only one with class initial */
   $(".section").hide();
   $(".initial").show();
@@ -70,4 +73,4 @@ _gaq.push(['_trackPageview']);
 
   //$('.lazyYT').lazyYT();
 
-})();
+});
