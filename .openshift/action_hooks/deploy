@@ -14,6 +14,8 @@ then
 else
     echo "Executing 'python $OPENSHIFT_REPO_DIR/wsgi/openshift/manage.py syncdb --noinput'"
     python "$OPENSHIFT_REPO_DIR"wsgi/openshift/manage.py syncdb --noinput
+    echo "Executing 'python $OPENSHIFT_REPO_DIR/wsgi/openshift/manage.py migrate'"
+    python "$OPENSHIFT_REPO_DIR"wsgi/openshift/manage.py migrate
 fi
 
 echo "Executing 'python $OPENSHIFT_REPO_DIR/wsgi/openshift/manage.py collectstatic --noinput'"
