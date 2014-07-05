@@ -14,10 +14,10 @@ import imp
 ON_OPENSHIFT = False
 if os.environ.has_key('OPENSHIFT_REPO_DIR'):
     ON_OPENSHIFT = True
-if os.environ.has_key('OPENSHIFT_DB_HOST'):
-    DB_HOST = os.environ['OPENSHIFT_DB_HOST']
-if os.environ.has_key('OPENSHIFT_DB_PORT'):
-    DB_PORT = os.environ['OPENSHIFT_DB_PORT']
+if os.environ.has_key('OPENSHIFT_POSTGRESQL_DB_HOST'):
+    DB_HOST = os.environ['OPENSHIFT_POSTGRESQL_DB_HOST']
+if os.environ.has_key('OPENSHIFT_POSTGRESQL_DB_PORT'):
+    DB_PORT = os.environ['OPENSHIFT_POSTGRESQL_DB_PORT']
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
