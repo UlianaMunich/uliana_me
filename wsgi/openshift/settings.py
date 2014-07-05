@@ -13,7 +13,11 @@ import imp
 
 ON_OPENSHIFT = False
 if os.environ.has_key('OPENSHIFT_REPO_DIR'):
-     ON_OPENSHIFT = True
+    ON_OPENSHIFT = True
+if os.environ.has_key('OPENSHIFT_DB_HOST'):
+    DB_HOST = os.environ['OPENSHIFT_DB_HOST']
+if os.environ.has_key('OPENSHIFT_DB_PORT'):
+    DB_PORT = os.environ['OPENSHIFT_DB_PORT']
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -98,9 +102,13 @@ TEMPLATE_DIRS = (
 if ON_OPENSHIFT:
      DATABASES = {
          'default': {
-             'ENGINE': 'django.db.backends.sqlite3',
-             'NAME': os.path.join(os.environ['OPENSHIFT_DATA_DIR'], 'db.sqlite3'),
-         }
+                'ENGINE': 'django.db.backends.postgresql_psycopg2',  # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+                'NAME': 'mysite',               # Or path to database file if using sqlite3.
+                'USER': 'adminxjntpcq',               # Not used with sqlite3.
+                'PASSWORD': '9rwPufLLGIhc',         # Not used with sqlite3.
+                'HOST': DB_HOST,               # Set to empty string for localhost. Not used with sqlite3.
+                'PORT': DB_PORT,               # Set to empty string for default. Not used with sqlite3.
+            }
      }
 else:
      DATABASES = {
