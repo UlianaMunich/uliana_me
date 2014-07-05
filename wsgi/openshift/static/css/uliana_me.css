@@ -114,6 +114,10 @@ padding-bottom: 4em;
 .small {
   font-size: .8em;
 }
+.logos{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
 #form .progress {
   display:none;
 }
