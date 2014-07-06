@@ -6,8 +6,24 @@ import smtplib
 import json
 
 def index(request):
-     return render_to_response('index.html')
+    return render_to_response('index.html')
 
+def career(request):
+    return render_to_response('career.html')
+
+def education(request):
+    return render_to_response('education.html')
+
+def certificates(request):
+    return render_to_response('certificates.html')
+
+def hobby(request):
+    return render_to_response('hobby.html')
+
+def contact(request):
+    return render_to_response('contact.html')
+
+# API
 def send_mail(request):
     if request.method == 'POST':
         msg = MIMEMultipart()
