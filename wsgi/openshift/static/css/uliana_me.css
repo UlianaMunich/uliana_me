@@ -1,5 +1,5 @@
 body {
-	transition: background-color 500ms ease-in;
+	transition: background-color 200ms linear;
 	color: white;
 }
 

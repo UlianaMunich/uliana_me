@@ -13,9 +13,6 @@ ga('send', 'pageview');
 /*  My scripts
 /* ---------------------------------------------------------------------- */
 $(document).ready(function(){
-  /* hide all sections, show only one with class initial */
-  $(".section").hide();
-  $(".initial").show();
 
   /* ---------------------------------------------------------------------- */
   /*  Check and post form
@@ -54,5 +51,10 @@ $(document).ready(function(){
             });
       }
   });
+
+    $('.navigation div').on('click', function(){
+        var color = $(this).css("background-color");
+        $('body').css("background-color", color);
+    })
 
 });
