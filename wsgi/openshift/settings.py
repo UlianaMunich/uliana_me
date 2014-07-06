@@ -95,6 +95,7 @@ WSGI_APPLICATION = 'wsgi.application'
 
 TEMPLATE_DIRS = (
      os.path.join(BASE_DIR,'templates'),
+     os.path.join(BASE_DIR,'pagedown/templates'),
 )
 
 # Database
