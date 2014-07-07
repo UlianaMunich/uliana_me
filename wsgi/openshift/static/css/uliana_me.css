@@ -120,6 +120,20 @@ padding-bottom: 4em;
 #form .progress {
   display:none;
 }
+.video-link{
+    color: rgba(166, 161, 233, 0.64);
+}
+h4.modal-title{
+color: black;
+}
+.modal-body, .modal-body a, .modal-body ol{
+    text-align: left;
+    color: black;
+}
+
+#myModal .modal-dialog {
+    width:680px;
+}
 /* makes the page black (text) on white (background) and etc. when it's printed out. */
 @media print{
   body{ background-color:#FFFFFF; background-image:none; color:#000000 }
