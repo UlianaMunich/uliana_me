@@ -16,8 +16,6 @@ ROOT_DIR = environ.Path(__file__) - 3
 APPS_DIR = ROOT_DIR.path('uliana_me')
 
 env = environ.Env()
-env.read_env('env.env')
-
 
 # APP CONFIGURATION
 # ------------------------------------------------------------------------------
