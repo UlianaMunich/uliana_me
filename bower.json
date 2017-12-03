@@ -1,0 +1,11 @@
+{
+    "name": "uliana.me",
+    "description": "Portfolio Site",
+    "version": "1.0.0",
+    "authors": [
+      "Uliana <uliana@uliana.me>"
+    ],
+    "private": true,
+    "dependencies": {
+    }
+}

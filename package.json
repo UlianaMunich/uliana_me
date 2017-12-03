@@ -1,0 +1,32 @@
+{
+  "name": "uliana_me",
+  "version": "0.1.0",
+  "dependencies": {},
+  
+  "private": true,
+  
+  "devDependencies": {
+    
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-bower": "0.0.13",
+    "gulp-clean-css": "^2.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^1.11.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.2.2"
+    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/gulp/bin/gulp.js build"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

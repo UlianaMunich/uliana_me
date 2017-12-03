@@ -1,0 +1,155 @@
+@import "bootstrap.scss";
+@import "bootstrap-theme.scss";
+
+body {
+	transition: background-color 200ms linear;
+	color: white;
+}
+
+.text-muted {
+color: #B6B6B6;
+}
+
+a {
+  text-decoration: underline;
+}
+.nobullets>li {
+  list-style: none;
+}
+
+.biglist>li {
+  margin-bottom: .5em;
+}
+
+footer {
+padding-bottom: 4em;
+}
+
+.navigation .item {
+	line-height: 2em;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.section {
+	margin-top: 3em;
+}
+
+.story-divider {
+	margin: 50px 0;
+	border-top: 1px solid #FFF;
+}
+
+.story {
+  font-size: 1.4em;
+  font-weight: 200;
+}
+
+.img-padded {
+  margin-top: 10px;
+  padding: 35px;
+}
+
+.story .lead {
+  margin-bottom: .5em;
+  letter-spacing: .6px;
+  font-weight: 100;
+  font-size: 1.3em;
+}
+
+#hobby .col-md-6 p{
+  font-size: 1.2em;
+}
+
+.story h3 {
+  font-size: 1.4em;
+}
+.about{
+	background-color: #d7333c;
+}
+
+.career{
+	background-color: #60016D;
+}
+
+.education{
+	background-color: #015367;
+}
+
+.certificates{
+	background-color: #05296E;
+}
+
+.hobby{
+	background-color: #8DA100;
+}
+
+.contact{
+	background-color: #FF7F00;
+}
+
+/* Helper classes */
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mt2 {
+  margin-top: 2em;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.small {
+  font-size: .8em;
+}
+.logos{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+#form .progress {
+  display:none;
+}
+.video-link{
+    color: rgba(166, 161, 233, 0.64);
+}
+h4.modal-title{
+color: black;
+}
+.modal-body, .modal-body a, .modal-body ol{
+    text-align: left;
+    color: black;
+}
+
+#myModal .modal-dialog {
+    width:680px;
+}
+/* makes the page black (text) on white (background) and etc. when it's printed out. */
+@media print{
+  body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+  #ad{ display:none;}
+  #leftbar{ display:none;}
+  #contentarea{ width:100%;}
+}
+
+/*Instagram Icon*/
+.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-32 { width: 32px; height: 32px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-32.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-32 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-32@2x.png); background-size: 60px 178px; } }
+/*Instagram Icon End*/
