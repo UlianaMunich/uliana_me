@@ -178,8 +178,8 @@ ADMIN_URL = r'^admin/'
 # Your common stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
 
-EMAIL_FROM = env('EMAIL_FROM')
-EMAIL_PASS = env('EMAIL_PASS')
+EMAIL_FROM = env('EMAIL_FROM', default=None)
+EMAIL_PASS = env('EMAIL_PASS', default=None)
 # Load and process conferences
 with open('content/conferences.yml', 'r') as yfile:
     CONFERENCES = yaml.load(yfile)
