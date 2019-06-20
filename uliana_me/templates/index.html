@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="icon" type="image/png" href="/static/img/favicon.ico">
 <head>
 	<title>Uliana's resume</title>
 	<meta charset="UTF-8">
@@ -7,7 +8,7 @@
 	<meta name="keywords" content="cv, onepage, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
-	<link href="img/favicon.png" rel="shortcut icon"/>
+	<link href="/static/img/favicon.png" rel="shortcut icon"/>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
@@ -37,7 +38,6 @@
 		<ul class="menu-list">
 			<li><a href="#home">Home</a></li>
 			<li><a href="#about">About</a></li>
-			<li><a href="#service">service</a></li>
 			<li><a href="#portfolio">Portfolio</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
@@ -75,9 +75,9 @@
 						</br>
 
 						Currently I'm also leading such conferences as FrontConf and PyConWeb as a main organizer.
-						If you have some ideas about more cool cofnerences for Munich I'd be happy to support you.
+						If you have some ideas about cool conferences/events for Munich I'd be more than happy to support you.
 						</p>
-						<a href="/static/img/CV.pdf" class="site-btn mt10">Download CV</a>
+						<!-- <a href="/static/img/CV.pdf" class="site-btn mt10">Download CV</a> -->
 					</div>
 					<div class="col-md-5 skill">
 						<!-- Skill item -->
@@ -105,6 +105,11 @@
 							<p>Project Managment</p>
 							<div class="progress-bar-style" data-progress="60"></div>
 						</div>
+						<!-- Skill item -->
+						<div class="single-progress-item">
+							<p>Conference Organizer</p>
+							<div class="progress-bar-style" data-progress="60"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -119,7 +124,7 @@
 					<h2>What I do</h2>
 				</div>
 				<div class="row">
-					<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+					<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
 						<div class="service-item">
 							<div class="serv-icon">
 								<i class="fa fa-codepen"></i>
@@ -130,7 +135,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+					<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
 						<div class="service-item">
 							<div class="serv-icon">
 								<i class="fa fa-camera"></i>
@@ -141,14 +146,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+					<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
 						<div class="service-item">
 							<div class="serv-icon">
 								<i class="fa fa-life-ring"></i>
 							</div>
 							<div class="serv-content">
 								<h4>Support</h4>
-								<p>Critical problem solving mindset</p>
+								<p>Critical problem solving mindset to resolve </p>
 							</div>
 						</div>
 					</div>
@@ -231,7 +236,7 @@
 		</section>
 		<!-- ==== Portfolio Section End ==== -->
 
-		<section class="promotion-section">
+		<!-- <section class="promotion-section">
 			<div class="promotion-bg"></div>
 			<div class="container">
 				<div class="row">
@@ -241,7 +246,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 
 		<!-- ==== Contact Section Start ==== -->
@@ -267,25 +272,25 @@
 							<div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.6s">
 								<i class="fa fa-send"></i>
 								<p>uliana@uliana.me<br></p>
+								<p><a href="https://www.linkedin.com/in/ulianaa/detail/recent-activity/posts/">LinkedIn</a></p>
 							</div>
 						</div>
-						<!-- Contact Form -->
-						<form action="mail.php" class="cont-form" id="contact-form" method="POST" >
-							<div class="row">
-								<div class="col-sm-6">
-									<input type="text" name="name" id="name" required placeholder="Your Name*">
-								</div>
-								<div class="col-sm-6">
-									<input type="email" name="email" id="email" required placeholder="Your Email*">
-								</div>
-								<div class="col-sm-12">
-									<textarea id="massage" name="massage" required placeholder="Your Massage*"></textarea>
-								</div>
-								<div class="text-center">
-									<button type="submit" class="site-btn" data-wow-delay="0.2s" id="send-form">Send Massege</button>
+
+						<!--SECTION CONTACT-->
+    					<!---->
+						<div id="contact" class="section">
+							<!-- Story -->
+							<div class="row story">
+									
 								</div>
 							</div>
-						</form>
+							<div class="row story mt2">
+								<div class="col-md-12">
+									<h2 class="align-center">Here I am!</h2>
+									<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBclAZV05HfZ_0MZJ5cGcNmDvnnk-qJb88&q=Munich"></iframe>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -315,5 +320,6 @@
 	<script src="/static/js/plugin.js"></script>
 	<script src="/static/js/init-round.js"></script>
 	<script src="/static/js/main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </body>
 </html>
