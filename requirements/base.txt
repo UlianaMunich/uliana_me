@@ -38,4 +38,4 @@ django-sekizai==0.10.0
 whitenoise==3.2.2
 
 # Your custom requirements go here
-PyYAML==3.12
+PyYAML==5.4
