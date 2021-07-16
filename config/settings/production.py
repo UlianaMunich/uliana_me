@@ -19,7 +19,7 @@ from .common import *  # noqa
 # ------------------------------------------------------------------------------
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 # Raises ImproperlyConfigured exception if DJANGO_SECRET_KEY not in os.environ
-SECRET_KEY = env('DJANGO_SECRET_KEY')
+SECRET_KEY = env('DJANGO_SECRET_KEY', default='abs^#-x#5+y&trl6*s@ylzh085^sk@qqpr(j*vylf*#mc-12ld')
 
 
 # This ensures that Django will be able to detect a secure connection
